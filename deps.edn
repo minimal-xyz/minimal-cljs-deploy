@@ -1,10 +1,11 @@
 
 {
-  :paths ["src"]
+  :paths ["src"] ; path of your code, it's used in generating POM
+  :deps {} ; also used in generating POM
   :aliases {
     :release {
       :extra-deps {
-        appliedscience/deps-library {:mvn/version "0.3.4"}
+        appliedscience/deps-library {:mvn/version "0.3.4"} ; you might also need newer version
       }
       :main-opts ["-m" "deps-library.release"]
     }
