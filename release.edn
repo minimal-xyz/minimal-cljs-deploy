@@ -1,0 +1,7 @@
+
+{:version "0.0.1"
+ :group-id "minimal-xyz"
+ :artifact-id "minimal-cljs-deploy"
+ :skip-tag true
+ :description "TODO"
+ :scm-url "https://github.com/minimal-xyz/minimal-cljs-deploy"}
