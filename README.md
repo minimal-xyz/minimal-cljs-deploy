@@ -16,6 +16,12 @@ Prepare an account for https://clojars.org/ before you start. And your code in `
 CLOJARS_USERNAME=TODO CLOJARS_PASSWORD=TOOD clj -A:release
 ```
 
+Or install locally:
+
+```bash
+clj -A:release install
+```
+
 Send feedbacks to [GitHub](https://github.com/appliedsciencestudio/deps-library) if you got trouble.
 
 ### License
